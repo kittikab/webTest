@@ -15,7 +15,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-     <link href="resources/css/abc.css" rel="stylesheet">
+    <link href="resources/css/abc.css" rel="stylesheet">
 
     <!-- Custom CSS: You can use this stylesheet to override any Bootstrap styles and/or apply your own styles -->
      <link href="resources/css/custom.css" rel="stylesheet">
@@ -110,7 +110,7 @@
 			</div>		
 		
 			<!-- Articles -->
-			<c:forEach var="article" items="${articles}">
+		<%-- 	<c:forEach var="article" items="${articles}">
 			<div class="row">
 				<article class="col-xs-12">
 					<h2>${article.title }</h2>
@@ -119,7 +119,7 @@
 				</article>
 			</div>
 			<hr>
-			</c:forEach>
+			</c:forEach> --%>
 		</div><!--/Center Column-->
 
 
